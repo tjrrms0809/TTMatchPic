@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/startbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/button_start"
+            android:layout_marginRight="40dp"/>
+
+        <ImageView
+            android:id="@+id/howtogame"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/button_howto" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/a_ele"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/a_frog"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/a_lion"
+            android:layout_alignParentBottom="true"/>
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/a_monkey"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/a_pig"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/q_board" />
+
+
+
+</LinearLayout>
